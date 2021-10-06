@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FormPage</title>
+</head>
+<body>
+	<form>
+		Give your details:<br>
+		<label for="fname">First Name</label><br>
+		<input type="text"id="fname" name="fname"value="Sinu"><br>
+		<label for="lname">Last Name</label><br>
+		<input type="text"id="lname" name="lname"value="Xavier"><br><br>
+		Select Your Gender:<br>
+		<input type="radio" name="gender"value="male">
+		<label>Male</label>
+		<input type="radio" name="gender"value="female">
+		<label>Female</label>
+		<input type="radio" name="gender"value="other">
+		<label>Other</label><br><br>
+		Select the profession:<br>
+		<input type="checkbox" name="job"value="g">
+		<label>Govt Job</label>
+		<input type="checkbox" name="job"value="p">
+		<label>Private Job</label>
+		<input type="checkbox" name="job"value="b">
+		<label>Buisness</label><br><br>
+		<select size="3" multiple>
+			<option value="Audi">Audi</option>
+			<option value="BMW">BMW</option>
+			<option value="Baleno">Baleno</option>
+			<option value="SUV">SUV</option><br><br>
+		</select><br><br>
+		<label for="myfile">Drop Resume</label>
+		<input type="file" id="myfile" name="myfile"><br><br>
+		<textarea rows="5"cols="20">Welcome to our site!!</textarea><br><br>
+		<fieldset>
+			<legend>Personal Info:</legend>
+			<label for="fname">First Name</label><br>
+		<input type="text"id="fname" name="fname"value="Sinu"><br>
+		<label for="lname">Last Name</label><br>
+		<input type="text"id="lname" name="lname"value="Xavier"><br><br>
+		</fieldset><br>
+		Select Car type:
+		<input list="cars">
+		<datalist id="cars">
+			<option value="Audi">Audi</option>
+			<option value="BMW">BMW</option>
+			<option value="Baleno">Baleno</option>
+			<option value="SUV">SUV</option><br><br>
+		</datalist><br><br>
+		<input type="submit">
+		<input type="button" value="try it">
+	</form>
+
+</body>
+</html>
