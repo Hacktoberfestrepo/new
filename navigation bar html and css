@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        h1{
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+        .logo{
+            font-size: 25px;
+            width: 40%;
+            color: darkblue;
+            padding-left: 60px;
+            text-shadow: 2px 2px 2px gray;
+        }
+        .menu{
+            display: flex;
+            justify-content: space-around;
+            font-size: 18px;
+            font-family: 'Acme', sans-serif;
+            font-weight: bold;
+            width: 60%;
+            padding-right: 40px;
+        }
+        .menu a{
+             text-decoration: none;
+             color: darkblue;
+             position: relative;
+
+        }
+        .menu a:before{
+            content: "";
+            position: absolute;
+            left: 0%;
+            top: 100%;
+            width: 0%;
+            height: 3px;
+            background-color: black;
+            transition: all 0.5s linear ;
+        }
+        .menu a:hover:before{
+            width: 100%;
+          background-color: blue;
+        }
+        .menu a:hover{
+            color: red;
+        }
+        nav{
+            background-color: aqua;
+            height: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+           <h1>FrontEnd WebDevelopment</h1>
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Gallery</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </nav>
+</body>
+</html>
