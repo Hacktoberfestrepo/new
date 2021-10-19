@@ -1,0 +1,122 @@
+form{
+   /* border: solid 1px;*/
+    width: fit-content;
+   margin:auto;
+   cursor: pointer;
+   padding: 3em;
+   border-radius: 6px;
+   margin-bottom: 50px;
+   box-shadow: 0px 0px 10px grey;
+}
+input[type=text],input[type=email],input[type=number]{
+    width: 500px;;
+    padding: 15px 30px;
+    border: None;
+    font-size: 10px;
+    border-bottom: 1px solid black;
+    transition: all .2s;
+    background-color: rgba(73, 64, 64, 0.027);
+    border-radius: 6px;
+}
+input[type=text]:focus,input[type=email]:focus,input[type=number]:focus{
+    outline: none;
+    /* border-bottom-color: rgb(59, 56, 56); */
+    box-shadow: 0px 0px 15px grey;  
+    background-color: white;
+}
+form input{
+    margin: 10px;
+}
+form p{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+
+    
+}
+h1:hover{
+    color: seagreen;
+}
+form select{
+    width:90%;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border:1.5px solid rgb(59, 56, 56);
+    padding: 15px;
+    transition: all .6s;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+form select:focus{
+    outline: none;
+    border:1px green;
+    
+}
+select option{
+    padding: 1%;
+}
+textarea{
+    width: 100px;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-color: rgb(59, 56, 56);
+    padding: 15px;
+    border-radius: 6px;
+
+}
+textarea:focus{
+    outline:none;
+    border: 1px solid green;
+    
+}
+.button,button{
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: auto;
+    display: inline-block;
+    transition: all .6s;
+}
+.button:hover{
+    cursor: pointer;
+    color: green;
+    background: honeydew;
+}
+.preview{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.45);
+    display: none;
+
+}
+.form_preview{
+    /* background-color: blanchedalmond;
+    width: fit-content;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 100px;
+    padding: 50px; */
+    background-color: white;
+    width: fit-content;
+    margin:auto;
+    cursor: pointer;
+    padding: 3em;
+    padding-right: 150px;
+    border-radius: 6px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px white;
+}
