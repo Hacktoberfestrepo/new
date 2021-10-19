@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with css</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    
+    <form action="GET" autocomplete="off">
+        <h1>Sign up</h1>
+        <p>
+            <input type="text" placeholder="Enter Your Name" name="name" id="">
+        </p>
+        <p>
+           <input type="email" placeholder="Enter your Email" name="email" id="">
+        </p>
+        <p>
+            <input type="number" placeholder="Enter your correct Mobile number" name="phone" id="">
+        </p>
+        <!-- <p>
+            Gender:
+            <br>
+            Male:<input type="radio" name="gender" value="male" id="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Female:<input type="radio" name="gender" id="">
+            other:<input type="radio" name="gender" id="">
+
+        </p> -->
+        <p>
+            <select name="gender" id="">
+                <option value="">--Select Your Gender--</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </p>
+        
+        <p>
+            
+            <select name="proff" id="" multiple>
+                <option value="">--Select two chioces for identity proof</option>
+                <option value="aadhar">Aadhar</option>
+                <option value="voter">Voter id card</option>
+                <option value="Passport">passport</option>
+                <option value="pan">pancard</option>
+
+            </select>
+        </p>
+        <!-- <p>
+            Select three two chioces<br><br>
+            Aadhar:<input type="checkbox" name="Aadhar" id=""> &nbsp;
+            Voter id:<input type="checkbox" name="voter" id=""> &nbsp;
+            password:<input type="checkbox" name="password" id=""> &nbsp;
+            pan card:<input type="checkbox" name="pan" id=""> &nbsp;
+
+        </p> -->
+        <p>
+            
+            <select name="city" id="">
+            <option value="">--Select city--</option>
+            <option value="bangalore">bangalore</option>
+            <option value="Mumbai">mumbai</option>
+            <option value="hyderabad">hyderabad</option>
+            <option value="sagar">sagar</option>
+        </select>
+        </p>
+        
+        <p>
+            <textarea name="address" id="" cols="30" rows="10" placeholder="Enter your address"> </textarea>
+        </p>
+        <!-- <p>
+            <input type="submit" name="" id="">
+        </p> -->
+        <button type="submit">signup </button>
+        <!-- <button type="reset">resset </button>-->
+    </form> 
+</body>
+</html>
